@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contents-wrapper {
+  margin: 100px auto;
+}
+
+.link-wrapper {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
