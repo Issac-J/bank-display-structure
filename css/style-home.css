@@ -13,96 +13,69 @@ h1 {
 }
 
 .contents-wrapper {
-  width: 500px;
-  height: 90vh;
-  margin: 10px auto;
-  background-color: beige;
-  border-radius: 20px;
-  /* border: black 1px solid; */
-}
-
-/* State */
-.state-bar-wrapper {
-  width: 100%;
-  height: 4%;
+  width: 375px;
+  height: 812px;
   margin: 0 auto;
+  border: 1px solid black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
   display: flex;
-  align-items: center;
-}
-
-.state-bar-wrapper span {
-  margin: 5px 0;
-}
-
-.state-bar-wrapper .currentTime {
-  font-weight: 700;
-  margin-left: 5%;
-  margin-right: 70%;
-}
-
-.state-bar-wrapper .signal {
-  margin-right: 2%;
-}
-
-.state-bar-wrapper .wifi {
-  margin-right: 2%;
-}
-
-.state-bar-wrapper .battery {
-  margin-right: 2%;
-}
-
-/* header */
-.header-wrapper {
-  height: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.header-wrapper .userImage {
-  width: 50px;
-  height: 50px;
-}
-
-.header-wrapper .userImage img {
-  width: 100%;
-}
-
-.header-wrapper .pageTitle {
-  font-weight: 600;
-  margin: 0 30%;
-}
-
-.header-wrapper .search {
-  display: flex;
-  align-items: center;
-}
-
-/* header */
-.main-wrapper {
-  height: 35%;
-}
-
-.accountBox {
-  width: 80%;
-  height: 80%;
-  border-radius: 20px;
-  margin: 10px auto;
-  background-color: white;
-  display: flex;
-  align-items: center;
   flex-direction: column;
 }
 
-.accountBox .accountNum {
+/* State Bar */
+.state-bar-wrapper {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
-.accountBox .accountStatus {
+.state-bar-wrapper img {
+  display: block;
 }
 
-.accountBox .accountGraph {
+.state-bar-wrapper .currentTime {
+  /* background-color: yellow; */
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 250px;
 }
 
-.accountBox .accountMessage {
+.state-bar-wrapper .signal {
+}
+
+.state-bar-wrapper .wifi {
+  margin-left: 3px;
+}
+
+.state-bar-wrapper .battery {
+  margin-left: 3px;
+}
+
+/* Header */
+.header-wrapper {
+  width: 100%;
+  height: 44px;
+  background-color: red;
+}
+
+.header-wrapper .userImage {
+}
+
+.header-wrapper .pageTitle {
+}
+
+.header-wrapper .search {
+}
+
+/* Footer */
+.footer-wrapper {
+  background-color: beige;
+
+  width: 100%;
+  height: 76px;
+  display: flex;
 }
